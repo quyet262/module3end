@@ -11,5 +11,7 @@
     <file url="file://$PROJECT_DIR$/ss3/manager_tour.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss3/thao_tac_csdl_qlbh.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss3/truy_van_dl_qlsv.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss4/luyen_tap_ham_sql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss4/use_function.sql" dialect="MySQL" />
   </component>
 </project>
