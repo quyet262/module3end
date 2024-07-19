@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/case/case.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss2/chuyen_doi_erd.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/create_table_CSDL.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/manager_oder.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/ss2/quan_ly_ban_hang.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/quan_ly_hoc_vien.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/quan_ly_sinh_vien.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss3/manager_tour.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss3/thao_tac_csdl_qlbh.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss3/truy_van_dl_qlsv.sql" dialect="MySQL" />
   </component>
 </project>
