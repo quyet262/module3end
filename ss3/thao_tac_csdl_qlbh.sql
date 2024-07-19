@@ -18,3 +18,16 @@ insert into order_detail value (3,1,8);
 insert into order_detail value (2,5,4);
 insert into order_detail value (2,3,3);
 select o_id,o_date,o_totalprice from orders;
+use quan_ly_ban_hang;
+select c_name,p_name, od_qty from customer
+    join orders on customer.c_id = orders.c_id
+    join order_detail on orders.o_id = order_detail.o_id
+    join product on order_detail.p_id = product.p_id;
+select c_name from customer
+    left join orders on customer.c_id = orders.c_id
+   where orders.o_id is null;
+select orders.o_id, o_date, sum(p_price * order_detail.od_qty) as total_order
+from orders
+    join order_detail on orders.o_id = order_detail.o_id
+    join product on order_detail.p_id = product.p_id
+group by orders.o_id, o_date ;

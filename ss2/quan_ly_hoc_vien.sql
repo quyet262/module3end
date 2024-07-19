@@ -86,5 +86,18 @@ select c.name , count(c.name) as quantity_student
 from students
 join classes c on c.id_class = students.class_id
 group by c.name;
+use quan_ly_hoc_vien;
+select name, avg(point.point) as dien_trung_binh
+from point join course c on c.id_course = point.course_id
+group by course_id
+order by avg(point) desc ;
+select max(dien_trung_binh) from (select avg(point.point) as dien_trung_binh
+                                  from point join course c on c.id_course = point.course_id
+                                  group by course_id
+                                  ) as ndtb;
+select name, avg(point) as DTB from point join course c on c.id_course = point.course_id
+group by name
+having DTB >= all
+
 
 
