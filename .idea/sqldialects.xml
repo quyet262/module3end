@@ -2,6 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/case/case.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/mini_test/mini_test_3.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/chuyen_doi_erd.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/create_table_CSDL.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss2/manager_oder.sql" dialect="GenericSQL" />
@@ -13,5 +14,11 @@
     <file url="file://$PROJECT_DIR$/ss3/truy_van_dl_qlsv.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss4/luyen_tap_ham_sql.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss4/use_function.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/chi_muc_sql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/store_procedure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/store_procedure_in_out.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/trigger_in_mysql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/view_in_sql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/view_index_sp.sql" dialect="MySQL" />
   </component>
 </project>

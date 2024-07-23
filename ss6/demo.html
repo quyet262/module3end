@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Báo Công Nghệ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .main-content {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #ff5722;
+        }
+
+        article {
+            margin-bottom: 2em;
+        }
+
+        article h2 {
+            margin-bottom: 0.5em;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            background-color: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar ul li a {
+            color: #ff5722;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .main-content {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Trang Báo Công Nghệ</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#tin-tuc">Tin Tức</a></li>
+        <li><a href="#danh-gia">Đánh Giá</a></li>
+        <li><a href="#thu-thuat">Thủ Thuật</a></li>
+        <li><a href="#lien-he">Liên Hệ</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="main-content">
+        <article id="tin-tuc">
+            <h2>Tin Tức Mới Nhất</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula nunc eu orci malesuada, ac varius lorem hendrerit.</p>
+        </article>
+        <article id="danh-gia">
+            <h2>Đánh Giá Sản Phẩm</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </article>
+        <article id="thu-thuat">
+            <h2>Thủ Thuật Công Nghệ</h2>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+        </article>
+    </div>
+    <aside class="sidebar">
+        <h2>Tin Nổi Bật</h2>
+        <ul>
+            <li><a href="#">Bài viết nổi bật 1</a></li>
+            <li><a href="#">Bài viết nổi bật 2</a></li>
+            <li><a href="#">Bài viết nổi bật 3</a></li>
+            <li><a href="#">Bài viết nổi bật 4</a></li>
+        </ul>
+    </aside>
+</div>
+<footer>
+    <p>&copy; 2024 Trang Báo Công Nghệ</p>
+</footer>
+</body>
+</html>
