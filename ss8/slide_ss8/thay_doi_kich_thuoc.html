@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay đổi kích thước của form-control với Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Thay đổi kích thước của form-control</h2>
+    <form>
+        <div class="form-group">
+            <label for="inputLarge">Large Input</label>
+            <input type="text" class="form-control form-control-lg" id="inputLarge" placeholder="Input lớn">
+        </div>
+        <div class="form-group">
+            <label for="inputSmall">Small Input</label>
+            <input type="text" class="form-control form-control-sm" id="inputSmall" placeholder="Input nhỏ">
+        </div>
+        <div class="form-group">
+            <label for="inputGrid1">Input với lưới</label>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="inputGrid1" placeholder="Input nửa đầu">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="inputGrid2" placeholder="Input nửa sau">
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Gửi</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

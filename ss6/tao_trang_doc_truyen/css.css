@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-title {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-title img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo-title h5 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul.main-menu li {
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul.main-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul.main-menu li a:hover,
+nav ul.main-menu li:hover > a {
+    background-color: #34495e;
+}
+
+nav ul.main-menu li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+nav ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #34495e;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.dropdown-menu li {
+    margin: 0;
+}
+
+nav ul.dropdown-menu li a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+main {
+    padding: 200px;
+}
+
+h2 {
+
+    color: #333;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; /* Adjust the gap here */
+}
+
+.book-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: calc(20% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #333;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color: #1a1a1a;
+    padding: 50px 0px;
+}
+footer p{
+    text-align: center;
+    font-size: 200%;
+    color: aqua;
+}

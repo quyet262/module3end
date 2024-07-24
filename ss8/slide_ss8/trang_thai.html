@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trạng thái các phần tử với Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Trạng thái các phần tử</h2>
+    <form>
+        <div class="form-group">
+            <label for="inputFocus">Focus Input</label>
+            <input type="text" class="form-control" id="inputFocus" placeholder="Nhấn vào đây">
+        </div>
+        <div class="form-group">
+            <label for="inputDisabled">Disabled Input</label>
+            <input type="text" class="form-control" id="inputDisabled" placeholder="Không thể nhập" disabled>
+        </div>
+        <div class="form-group has-success">
+            <label for="inputSuccess">Input với trạng thái thành công</label>
+            <input type="text" class="form-control" id="inputSuccess">
+            <div class="valid-feedback">Thành công!</div>
+        </div>
+        <div class="form-group has-warning">
+            <label for="inputWarning">Input với trạng thái cảnh báo</label>
+            <input type="text" class="form-control" id="inputWarning">
+            <div class="invalid-feedback">Cảnh báo!</div>
+        </div>
+        <div class="form-group has-error">
+            <label for="inputError">Input với trạng thái lỗi</label>
+            <input type="text" class="form-control" id="inputError">
+            <div class="invalid-feedback">Lỗi!</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Gửi</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
