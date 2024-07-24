@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #header h4 {
+            margin: 0;
+        }
+        #header ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        #header ul li {
+            margin-left: 20px;
+        }
+        #header ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #header p {
+            margin: 0;
+        }
+        #sidebarleft, #sidebarright {
+            width: 15%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            align-items: center;
+        }
+        #sidebarleft li, #sidebarright li {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        #sidebarright li a{
+            border: 2px solid black;
+            background-color: #34495e;
+            width: 40px;
+            height: auto;
+        }
+        #main {
+            width: 70%;
+            padding: 20px;
+        }
+        #container {
+            display: flex;
+        }
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h4>Logo</h4>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <p>Login</p>
+</div>
+<div id="container">
+    <div id="sidebarleft">
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div>
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div>
+            <h2>Test</h2>
+            <p>Lorem ipsum...</p>
+        </div>
+    </div>
+    <div id="sidebarright">
+        <ul>
+            <li><a href="#">ADS</a></li>
+            <li><a href="#">ADS</a></li>
+        </ul>
+    </div>
+</div>
+<div id="footer">
+    Footer text
+</div>
+</body>
+</html>
