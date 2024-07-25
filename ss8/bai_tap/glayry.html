@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .col {
+            float: left;
+            padding: 15px;
+        }
+        .image-container {
+            width: 100%;
+            position: relative;
+            /*padding-top: 100%; !* 1:1 Aspect Ratio *!*/
+            aspect-ratio: 1/1.6;
+        }
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            /*object-fit: cover;*/
+        }
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        @media only screen and (max-width: 499px) {
+            .col {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 500px) and (max-width: 699px) {
+            .col {
+                width: 50%;
+            }
+        }
+        @media only screen and (min-width: 700px) {
+            .col {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="col col-3">
+    <div class="image-container">
+        <img src="https://i.pinimg.com/564x/34/80/2d/34802def4bd277a4508c1c4439a4fc7c.jpg" alt="Image 1">
+    </div>
+</div>
+<div class="col col-3">
+    <div class="image-container">
+        <img src="https://i.pinimg.com/564x/b2/12/3d/b2123d6892548d576659900c73a3e0a0.jpg" alt="Image 2">
+    </div>
+</div>
+<div class="col col-3">
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/a3/1e/2b/a31e2b84b802cf97d376e57719c48a0a.jpg" alt="Image 3">
+    </div>
+</div>
+<div class="col col-3">
+    <div class="image-container">
+        <img src="https://i.pinimg.com/564x/aa/d7/d9/aad7d929b24abbfd0e9898802cf600bb.jpg" alt="Image 4">
+    </div>
+</div>
+</body>
+</html>
